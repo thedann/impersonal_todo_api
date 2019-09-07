@@ -1,0 +1,10 @@
+/Users/Daniel/Projects/todo-react-web-and-server/TodoApi/TodoApi/bin/Debug/netcoreapp2.0/TodoApi.deps.json
+/Users/Daniel/Projects/todo-react-web-and-server/TodoApi/TodoApi/bin/Debug/netcoreapp2.0/TodoApi.runtimeconfig.json
+/Users/Daniel/Projects/todo-react-web-and-server/TodoApi/TodoApi/bin/Debug/netcoreapp2.0/TodoApi.runtimeconfig.dev.json
+/Users/Daniel/Projects/todo-react-web-and-server/TodoApi/TodoApi/bin/Debug/netcoreapp2.0/TodoApi.dll
+/Users/Daniel/Projects/todo-react-web-and-server/TodoApi/TodoApi/bin/Debug/netcoreapp2.0/TodoApi.pdb
+/Users/Daniel/Projects/todo-react-web-and-server/TodoApi/TodoApi/obj/Debug/netcoreapp2.0/TodoApi.csproj.CoreCompileInputs.cache
+/Users/Daniel/Projects/todo-react-web-and-server/TodoApi/TodoApi/obj/Debug/netcoreapp2.0/TodoApi.AssemblyInfoInputs.cache
+/Users/Daniel/Projects/todo-react-web-and-server/TodoApi/TodoApi/obj/Debug/netcoreapp2.0/TodoApi.AssemblyInfo.cs
+/Users/Daniel/Projects/todo-react-web-and-server/TodoApi/TodoApi/obj/Debug/netcoreapp2.0/TodoApi.dll
+/Users/Daniel/Projects/todo-react-web-and-server/TodoApi/TodoApi/obj/Debug/netcoreapp2.0/TodoApi.pdb
