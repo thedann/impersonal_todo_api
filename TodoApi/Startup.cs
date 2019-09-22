@@ -26,13 +26,14 @@ namespace TodoApi
     public void ConfigureServices(IServiceCollection services)
     {
       services.AddCors(options =>
-              {
-                options.AddPolicy(MyAllowSpecificOrigins,
-          builder =>
-          {
-            builder.WithOrigins("http://localhost:3000");
-          });
-              });
+        {
+          options.AddPolicy(MyAllowSpecificOrigins,
+    builder =>
+    {
+      builder.WithOrigins("http://localhost:3000");
+      builder.WithMethods("GET", "POST", "DELETE");
+    });
+        });
 
       services.AddMvc();
     }

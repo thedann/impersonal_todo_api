@@ -28,15 +28,20 @@ namespace TodoApi.Controllers
     public void Post(string todo)
     {
       TodoStore.Todos.Add(todo);
-      Console.WriteLine(todo);
-      Console.WriteLine(JsonConvert.SerializeObject(TodoStore.Todos));
     }
 
     // DELETE api/todo/5
-    [HttpDelete("{id}")]
+    [HttpDelete]
     public void Delete(int id)
     {
-      TodoStore.Todos.RemoveAt(id);
+      try
+      {
+        TodoStore.Todos.RemoveAt(id);
+      }
+      catch (System.Exception e)
+      {
+        throw;
+      }
     }
 
   }
